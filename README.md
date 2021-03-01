@@ -41,7 +41,7 @@ Whilst a compiled version of CyberChef with Murmur support is available on the [
 1. `git clone https://github.com/gchq/CyberChef.git`
 2. Follow the installation instructions on the [CyberChef Wiki](https://github.com/gchq/CyberChef/wiki/Getting-started#installing)
 3. Update `/src/core/config/Categories.json` to include an entry for `Murmur` under `Hashing`
-4. Copy [Murmurhash.mjs](./Murmur.mjs) to `/src/core/operations`
+4. Copy [Murmur.mjs](./Murmur.mjs) to `/src/core/operations`
 5. Copy [murmurhash.js](./murmurhash.js) to `/src/core/vendor`
 6. Follow the remaining instructions on the [CyberChef Wiki](https://github.com/gchq/CyberChef/wiki/Getting-started#compiling) to compile CyberChef with native Murmur support (use of `--force` maybe necessary)
 
