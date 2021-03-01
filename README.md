@@ -1,7 +1,7 @@
 # CyberChef with Murmur Support
 
 
-![Screenshot showing the Murmur has of a favicon](./Screenshot.png)
+![Screenshot showing the Murmur hash of a favicon](./Screenshot.png)
 
 
 ## Usage
@@ -43,11 +43,12 @@ Whilst a compiled version of CyberChef with Murmur support is available on the [
 3. Update `/src/core/config/Categories.json` to include an entry for `Murmur` under `Hashing`
 4. Copy [Murmur.mjs](./Murmur.mjs) to `/src/core/operations`
 5. Copy [murmurhash.js](./murmurhash.js) to `/src/core/vendor`
-6. Follow the remaining instructions on the [CyberChef Wiki](https://github.com/gchq/CyberChef/wiki/Getting-started#compiling) to compile CyberChef with native Murmur support (use of `--force` maybe necessary)
+6. Follow the remaining instructions on the [CyberChef Wiki](https://github.com/gchq/CyberChef/wiki/Getting-started#compiling) to compile CyberChef with native Murmur support (use of `--force` may be necessary)
 
 ---
 
 ## Further Reading
+* [Scan't Touch This - Proactively Detect Adversaries Beyond Your Environment](https://github.com/aaronst/talks/blob/master/scanttouchthis.pdf)
 * [Pivoting with Property Hashes](https://help.shodan.io/mastery/property-hashes)
 * [Weaponizing favicon.ico for BugBounties , OSINT and what not](https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139)
 * [Shodan Favicon Hashes](https://github.com/sansatart/scrapts/blob/master/shodan-favicon-hashes.csv)
